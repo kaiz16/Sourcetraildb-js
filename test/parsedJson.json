@@ -1,1 +1,1935 @@
-[{"type":"Program","start":0,"end":322,"body":[{"type":"ClassDeclaration","start":0,"end":257,"id":{"type":"Identifier","start":6,"end":15,"name":"Rectangle"},"superClass":null,"body":{"type":"ClassBody","start":16,"end":257,"body":[{"type":"MethodDefinition","start":22,"end":110,"kind":"constructor","static":false,"computed":false,"key":{"type":"Identifier","start":22,"end":33,"name":"constructor"},"value":{"type":"FunctionExpression","start":33,"end":110,"id":null,"expression":false,"generator":false,"async":false,"params":[{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"}],"body":{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]}}},{"type":"MethodDefinition","start":129,"end":177,"kind":"get","static":false,"computed":false,"key":{"type":"Identifier","start":133,"end":137,"name":"area"},"value":{"type":"FunctionExpression","start":137,"end":177,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]}}},{"type":"MethodDefinition","start":196,"end":253,"kind":"method","static":false,"computed":false,"key":{"type":"Identifier","start":196,"end":204,"name":"calcArea"},"value":{"type":"FunctionExpression","start":204,"end":253,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]}}}]}},{"type":"VariableDeclaration","start":259,"end":296,"declarations":[{"type":"VariableDeclarator","start":265,"end":295,"id":{"type":"Identifier","start":265,"end":271,"name":"square"},"init":{"type":"NewExpression","start":274,"end":295,"callee":{"type":"Identifier","start":278,"end":287,"name":"Rectangle"},"arguments":[{"type":"Literal","start":288,"end":290,"value":10,"raw":"10"},{"type":"Literal","start":292,"end":294,"value":10,"raw":"10"}]}}],"kind":"const"},{"type":"ExpressionStatement","start":297,"end":322,"expression":{"type":"CallExpression","start":297,"end":321,"callee":{"type":"MemberExpression","start":297,"end":308,"object":{"type":"Identifier","start":297,"end":304,"name":"console"},"property":{"type":"Identifier","start":305,"end":308,"name":"log"},"computed":false},"arguments":[{"type":"MemberExpression","start":309,"end":320,"object":{"type":"Identifier","start":309,"end":315,"name":"square"},"property":{"type":"Identifier","start":316,"end":320,"name":"area"},"computed":false}]}}],"sourceType":"script"},{"type":"ClassDeclaration","start":0,"end":257,"id":{"type":"Identifier","start":6,"end":15,"name":"Rectangle"},"superClass":null,"body":{"type":"ClassBody","start":16,"end":257,"body":[{"type":"MethodDefinition","start":22,"end":110,"kind":"constructor","static":false,"computed":false,"key":{"type":"Identifier","start":22,"end":33,"name":"constructor"},"value":{"type":"FunctionExpression","start":33,"end":110,"id":null,"expression":false,"generator":false,"async":false,"params":[{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"}],"body":{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]}}},{"type":"MethodDefinition","start":129,"end":177,"kind":"get","static":false,"computed":false,"key":{"type":"Identifier","start":133,"end":137,"name":"area"},"value":{"type":"FunctionExpression","start":137,"end":177,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]}}},{"type":"MethodDefinition","start":196,"end":253,"kind":"method","static":false,"computed":false,"key":{"type":"Identifier","start":196,"end":204,"name":"calcArea"},"value":{"type":"FunctionExpression","start":204,"end":253,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]}}}]}},{"type":"VariableDeclaration","start":259,"end":296,"declarations":[{"type":"VariableDeclarator","start":265,"end":295,"id":{"type":"Identifier","start":265,"end":271,"name":"square"},"init":{"type":"NewExpression","start":274,"end":295,"callee":{"type":"Identifier","start":278,"end":287,"name":"Rectangle"},"arguments":[{"type":"Literal","start":288,"end":290,"value":10,"raw":"10"},{"type":"Literal","start":292,"end":294,"value":10,"raw":"10"}]}}],"kind":"const"},{"type":"ExpressionStatement","start":297,"end":322,"expression":{"type":"CallExpression","start":297,"end":321,"callee":{"type":"MemberExpression","start":297,"end":308,"object":{"type":"Identifier","start":297,"end":304,"name":"console"},"property":{"type":"Identifier","start":305,"end":308,"name":"log"},"computed":false},"arguments":[{"type":"MemberExpression","start":309,"end":320,"object":{"type":"Identifier","start":309,"end":315,"name":"square"},"property":{"type":"Identifier","start":316,"end":320,"name":"area"},"computed":false}]}},{"type":"Identifier","start":6,"end":15,"name":"Rectangle"},{"type":"ClassBody","start":16,"end":257,"body":[{"type":"MethodDefinition","start":22,"end":110,"kind":"constructor","static":false,"computed":false,"key":{"type":"Identifier","start":22,"end":33,"name":"constructor"},"value":{"type":"FunctionExpression","start":33,"end":110,"id":null,"expression":false,"generator":false,"async":false,"params":[{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"}],"body":{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]}}},{"type":"MethodDefinition","start":129,"end":177,"kind":"get","static":false,"computed":false,"key":{"type":"Identifier","start":133,"end":137,"name":"area"},"value":{"type":"FunctionExpression","start":137,"end":177,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]}}},{"type":"MethodDefinition","start":196,"end":253,"kind":"method","static":false,"computed":false,"key":{"type":"Identifier","start":196,"end":204,"name":"calcArea"},"value":{"type":"FunctionExpression","start":204,"end":253,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]}}}]},{"type":"VariableDeclarator","start":265,"end":295,"id":{"type":"Identifier","start":265,"end":271,"name":"square"},"init":{"type":"NewExpression","start":274,"end":295,"callee":{"type":"Identifier","start":278,"end":287,"name":"Rectangle"},"arguments":[{"type":"Literal","start":288,"end":290,"value":10,"raw":"10"},{"type":"Literal","start":292,"end":294,"value":10,"raw":"10"}]}},{"type":"CallExpression","start":297,"end":321,"callee":{"type":"MemberExpression","start":297,"end":308,"object":{"type":"Identifier","start":297,"end":304,"name":"console"},"property":{"type":"Identifier","start":305,"end":308,"name":"log"},"computed":false},"arguments":[{"type":"MemberExpression","start":309,"end":320,"object":{"type":"Identifier","start":309,"end":315,"name":"square"},"property":{"type":"Identifier","start":316,"end":320,"name":"area"},"computed":false}]},{"type":"MethodDefinition","start":22,"end":110,"kind":"constructor","static":false,"computed":false,"key":{"type":"Identifier","start":22,"end":33,"name":"constructor"},"value":{"type":"FunctionExpression","start":33,"end":110,"id":null,"expression":false,"generator":false,"async":false,"params":[{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"}],"body":{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]}}},{"type":"MethodDefinition","start":129,"end":177,"kind":"get","static":false,"computed":false,"key":{"type":"Identifier","start":133,"end":137,"name":"area"},"value":{"type":"FunctionExpression","start":137,"end":177,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]}}},{"type":"MethodDefinition","start":196,"end":253,"kind":"method","static":false,"computed":false,"key":{"type":"Identifier","start":196,"end":204,"name":"calcArea"},"value":{"type":"FunctionExpression","start":204,"end":253,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]}}},{"type":"Identifier","start":265,"end":271,"name":"square"},{"type":"NewExpression","start":274,"end":295,"callee":{"type":"Identifier","start":278,"end":287,"name":"Rectangle"},"arguments":[{"type":"Literal","start":288,"end":290,"value":10,"raw":"10"},{"type":"Literal","start":292,"end":294,"value":10,"raw":"10"}]},{"type":"MemberExpression","start":297,"end":308,"object":{"type":"Identifier","start":297,"end":304,"name":"console"},"property":{"type":"Identifier","start":305,"end":308,"name":"log"},"computed":false},{"type":"MemberExpression","start":309,"end":320,"object":{"type":"Identifier","start":309,"end":315,"name":"square"},"property":{"type":"Identifier","start":316,"end":320,"name":"area"},"computed":false},{"type":"Identifier","start":22,"end":33,"name":"constructor"},{"type":"FunctionExpression","start":33,"end":110,"id":null,"expression":false,"generator":false,"async":false,"params":[{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"}],"body":{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]}},{"type":"Identifier","start":133,"end":137,"name":"area"},{"type":"FunctionExpression","start":137,"end":177,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]}},{"type":"Identifier","start":196,"end":204,"name":"calcArea"},{"type":"FunctionExpression","start":204,"end":253,"id":null,"expression":false,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]}},{"type":"Identifier","start":278,"end":287,"name":"Rectangle"},{"type":"Literal","start":288,"end":290,"value":10,"raw":"10"},{"type":"Literal","start":292,"end":294,"value":10,"raw":"10"},{"type":"Identifier","start":297,"end":304,"name":"console"},{"type":"Identifier","start":305,"end":308,"name":"log"},{"type":"Identifier","start":309,"end":315,"name":"square"},{"type":"Identifier","start":316,"end":320,"name":"area"},{"type":"Identifier","start":34,"end":40,"name":"height"},{"type":"Identifier","start":42,"end":47,"name":"width"},{"type":"BlockStatement","start":49,"end":110,"body":[{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}}]},{"type":"BlockStatement","start":140,"end":177,"body":[{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}}]},{"type":"BlockStatement","start":207,"end":253,"body":[{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}}]},{"type":"ExpressionStatement","start":57,"end":78,"expression":{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}}},{"type":"ExpressionStatement","start":85,"end":104,"expression":{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}}},{"type":"ReturnStatement","start":148,"end":171,"argument":{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]}},{"type":"ReturnStatement","start":215,"end":247,"argument":{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}}},{"type":"AssignmentExpression","start":57,"end":77,"operator":"=","left":{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},"right":{"type":"Identifier","start":71,"end":77,"name":"height"}},{"type":"AssignmentExpression","start":85,"end":103,"operator":"=","left":{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},"right":{"type":"Identifier","start":98,"end":103,"name":"width"}},{"type":"CallExpression","start":155,"end":170,"callee":{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},"arguments":[]},{"type":"BinaryExpression","start":222,"end":246,"left":{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},"operator":"*","right":{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false}},{"type":"MemberExpression","start":57,"end":68,"object":{"type":"ThisExpression","start":57,"end":61},"property":{"type":"Identifier","start":62,"end":68,"name":"height"},"computed":false},{"type":"Identifier","start":71,"end":77,"name":"height"},{"type":"MemberExpression","start":85,"end":95,"object":{"type":"ThisExpression","start":85,"end":89},"property":{"type":"Identifier","start":90,"end":95,"name":"width"},"computed":false},{"type":"Identifier","start":98,"end":103,"name":"width"},{"type":"MemberExpression","start":155,"end":168,"object":{"type":"ThisExpression","start":155,"end":159},"property":{"type":"Identifier","start":160,"end":168,"name":"calcArea"},"computed":false},{"type":"MemberExpression","start":222,"end":233,"object":{"type":"ThisExpression","start":222,"end":226},"property":{"type":"Identifier","start":227,"end":233,"name":"height"},"computed":false},{"type":"MemberExpression","start":236,"end":246,"object":{"type":"ThisExpression","start":236,"end":240},"property":{"type":"Identifier","start":241,"end":246,"name":"width"},"computed":false},{"type":"ThisExpression","start":57,"end":61},{"type":"Identifier","start":62,"end":68,"name":"height"},{"type":"ThisExpression","start":85,"end":89},{"type":"Identifier","start":90,"end":95,"name":"width"},{"type":"ThisExpression","start":155,"end":159},{"type":"Identifier","start":160,"end":168,"name":"calcArea"},{"type":"ThisExpression","start":222,"end":226},{"type":"Identifier","start":227,"end":233,"name":"height"},{"type":"ThisExpression","start":236,"end":240},{"type":"Identifier","start":241,"end":246,"name":"width"}]
+[
+  {
+    "type": "Program",
+    "start": 0,
+    "end": 322,
+    "body": [
+      {
+        "type": "ClassDeclaration",
+        "start": 0,
+        "end": 257,
+        "id": {
+          "type": "Identifier",
+          "start": 6,
+          "end": 15,
+          "name": "Rectangle"
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "start": 16,
+          "end": 257,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 22,
+              "end": 110,
+              "kind": "constructor",
+              "static": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 22,
+                "end": 33,
+                "name": "constructor"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 33,
+                "end": 110,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 34,
+                    "end": 40,
+                    "name": "height"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 42,
+                    "end": 47,
+                    "name": "width"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 49,
+                  "end": 110,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 57,
+                      "end": 78,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 57,
+                        "end": 77,
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 57,
+                          "end": 68,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 57,
+                            "end": 61
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 62,
+                            "end": 68,
+                            "name": "height"
+                          },
+                          "computed": false
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 71,
+                          "end": 77,
+                          "name": "height"
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 85,
+                      "end": 104,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 85,
+                        "end": 103,
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 85,
+                          "end": 95,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 85,
+                            "end": 89
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 90,
+                            "end": 95,
+                            "name": "width"
+                          },
+                          "computed": false
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 98,
+                          "end": 103,
+                          "name": "width"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "MethodDefinition",
+              "start": 129,
+              "end": 177,
+              "kind": "get",
+              "static": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 133,
+                "end": 137,
+                "name": "area"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 137,
+                "end": 177,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 140,
+                  "end": 177,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 148,
+                      "end": 171,
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 155,
+                        "end": 170,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 155,
+                          "end": 168,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 155,
+                            "end": 159
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 160,
+                            "end": 168,
+                            "name": "calcArea"
+                          },
+                          "computed": false
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "MethodDefinition",
+              "start": 196,
+              "end": 253,
+              "kind": "method",
+              "static": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 196,
+                "end": 204,
+                "name": "calcArea"
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 204,
+                "end": 253,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 207,
+                  "end": 253,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 215,
+                      "end": 247,
+                      "argument": {
+                        "type": "BinaryExpression",
+                        "start": 222,
+                        "end": 246,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 222,
+                          "end": 233,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 222,
+                            "end": 226
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 227,
+                            "end": 233,
+                            "name": "height"
+                          },
+                          "computed": false
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "MemberExpression",
+                          "start": 236,
+                          "end": 246,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 236,
+                            "end": 240
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 241,
+                            "end": 246,
+                            "name": "width"
+                          },
+                          "computed": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 259,
+        "end": 296,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 265,
+            "end": 295,
+            "id": {
+              "type": "Identifier",
+              "start": 265,
+              "end": 271,
+              "name": "square"
+            },
+            "init": {
+              "type": "NewExpression",
+              "start": 274,
+              "end": 295,
+              "callee": {
+                "type": "Identifier",
+                "start": 278,
+                "end": 287,
+                "name": "Rectangle"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 288,
+                  "end": 290,
+                  "value": 10,
+                  "raw": "10"
+                },
+                {
+                  "type": "Literal",
+                  "start": 292,
+                  "end": 294,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 297,
+        "end": 322,
+        "expression": {
+          "type": "CallExpression",
+          "start": 297,
+          "end": 321,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 297,
+            "end": 308,
+            "object": {
+              "type": "Identifier",
+              "start": 297,
+              "end": 304,
+              "name": "console"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 305,
+              "end": 308,
+              "name": "log"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 309,
+              "end": 320,
+              "object": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 315,
+                "name": "square"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 320,
+                "name": "area"
+              },
+              "computed": false
+            }
+          ]
+        }
+      }
+    ],
+    "sourceType": "script"
+  },
+  {
+    "type": "ClassDeclaration",
+    "start": 0,
+    "end": 257,
+    "id": { "type": "Identifier", "start": 6, "end": 15, "name": "Rectangle" },
+    "superClass": null,
+    "body": {
+      "type": "ClassBody",
+      "start": 16,
+      "end": 257,
+      "body": [
+        {
+          "type": "MethodDefinition",
+          "start": 22,
+          "end": 110,
+          "kind": "constructor",
+          "static": false,
+          "computed": false,
+          "key": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 33,
+            "name": "constructor"
+          },
+          "value": {
+            "type": "FunctionExpression",
+            "start": 33,
+            "end": 110,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 34,
+                "end": 40,
+                "name": "height"
+              },
+              { "type": "Identifier", "start": 42, "end": 47, "name": "width" }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 49,
+              "end": 110,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 57,
+                  "end": 78,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 57,
+                    "end": 77,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 57,
+                      "end": 68,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 57,
+                        "end": 61
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 62,
+                        "end": 68,
+                        "name": "height"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 71,
+                      "end": 77,
+                      "name": "height"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 85,
+                  "end": 104,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 85,
+                    "end": 103,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 85,
+                      "end": 95,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 85,
+                        "end": 89
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 90,
+                        "end": 95,
+                        "name": "width"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 98,
+                      "end": 103,
+                      "name": "width"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "MethodDefinition",
+          "start": 129,
+          "end": 177,
+          "kind": "get",
+          "static": false,
+          "computed": false,
+          "key": {
+            "type": "Identifier",
+            "start": 133,
+            "end": 137,
+            "name": "area"
+          },
+          "value": {
+            "type": "FunctionExpression",
+            "start": 137,
+            "end": 177,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 140,
+              "end": 177,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 148,
+                  "end": 171,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 155,
+                    "end": 170,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 155,
+                      "end": 168,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 155,
+                        "end": 159
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 160,
+                        "end": 168,
+                        "name": "calcArea"
+                      },
+                      "computed": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "MethodDefinition",
+          "start": 196,
+          "end": 253,
+          "kind": "method",
+          "static": false,
+          "computed": false,
+          "key": {
+            "type": "Identifier",
+            "start": 196,
+            "end": 204,
+            "name": "calcArea"
+          },
+          "value": {
+            "type": "FunctionExpression",
+            "start": 204,
+            "end": 253,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 207,
+              "end": 253,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 215,
+                  "end": 247,
+                  "argument": {
+                    "type": "BinaryExpression",
+                    "start": 222,
+                    "end": 246,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 222,
+                      "end": 233,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 222,
+                        "end": 226
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 227,
+                        "end": 233,
+                        "name": "height"
+                      },
+                      "computed": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 236,
+                      "end": 246,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 236,
+                        "end": 240
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 241,
+                        "end": 246,
+                        "name": "width"
+                      },
+                      "computed": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "VariableDeclaration",
+    "start": 259,
+    "end": 296,
+    "declarations": [
+      {
+        "type": "VariableDeclarator",
+        "start": 265,
+        "end": 295,
+        "id": {
+          "type": "Identifier",
+          "start": 265,
+          "end": 271,
+          "name": "square"
+        },
+        "init": {
+          "type": "NewExpression",
+          "start": 274,
+          "end": 295,
+          "callee": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 287,
+            "name": "Rectangle"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 288,
+              "end": 290,
+              "value": 10,
+              "raw": "10"
+            },
+            {
+              "type": "Literal",
+              "start": 292,
+              "end": 294,
+              "value": 10,
+              "raw": "10"
+            }
+          ]
+        }
+      }
+    ],
+    "kind": "const"
+  },
+  {
+    "type": "ExpressionStatement",
+    "start": 297,
+    "end": 322,
+    "expression": {
+      "type": "CallExpression",
+      "start": 297,
+      "end": 321,
+      "callee": {
+        "type": "MemberExpression",
+        "start": 297,
+        "end": 308,
+        "object": {
+          "type": "Identifier",
+          "start": 297,
+          "end": 304,
+          "name": "console"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 305,
+          "end": 308,
+          "name": "log"
+        },
+        "computed": false
+      },
+      "arguments": [
+        {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 320,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 315,
+            "name": "square"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 320,
+            "name": "area"
+          },
+          "computed": false
+        }
+      ]
+    }
+  },
+  { "type": "Identifier", "start": 6, "end": 15, "name": "Rectangle" },
+  {
+    "type": "ClassBody",
+    "start": 16,
+    "end": 257,
+    "body": [
+      {
+        "type": "MethodDefinition",
+        "start": 22,
+        "end": 110,
+        "kind": "constructor",
+        "static": false,
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "start": 22,
+          "end": 33,
+          "name": "constructor"
+        },
+        "value": {
+          "type": "FunctionExpression",
+          "start": 33,
+          "end": 110,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            { "type": "Identifier", "start": 34, "end": 40, "name": "height" },
+            { "type": "Identifier", "start": 42, "end": 47, "name": "width" }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 49,
+            "end": 110,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 57,
+                "end": 78,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 57,
+                  "end": 77,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 57,
+                    "end": 68,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 57,
+                      "end": 61
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 62,
+                      "end": 68,
+                      "name": "height"
+                    },
+                    "computed": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 71,
+                    "end": 77,
+                    "name": "height"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 85,
+                "end": 104,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 85,
+                  "end": 103,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 85,
+                    "end": 95,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 85,
+                      "end": 89
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 90,
+                      "end": 95,
+                      "name": "width"
+                    },
+                    "computed": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 98,
+                    "end": 103,
+                    "name": "width"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "MethodDefinition",
+        "start": 129,
+        "end": 177,
+        "kind": "get",
+        "static": false,
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "start": 133,
+          "end": 137,
+          "name": "area"
+        },
+        "value": {
+          "type": "FunctionExpression",
+          "start": 137,
+          "end": 177,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 140,
+            "end": 177,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 148,
+                "end": 171,
+                "argument": {
+                  "type": "CallExpression",
+                  "start": 155,
+                  "end": 170,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 155,
+                    "end": 168,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 155,
+                      "end": 159
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 160,
+                      "end": 168,
+                      "name": "calcArea"
+                    },
+                    "computed": false
+                  },
+                  "arguments": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "MethodDefinition",
+        "start": 196,
+        "end": 253,
+        "kind": "method",
+        "static": false,
+        "computed": false,
+        "key": {
+          "type": "Identifier",
+          "start": 196,
+          "end": 204,
+          "name": "calcArea"
+        },
+        "value": {
+          "type": "FunctionExpression",
+          "start": 204,
+          "end": 253,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 207,
+            "end": 253,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 215,
+                "end": 247,
+                "argument": {
+                  "type": "BinaryExpression",
+                  "start": 222,
+                  "end": 246,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 222,
+                    "end": 233,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 222,
+                      "end": 226
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 227,
+                      "end": 233,
+                      "name": "height"
+                    },
+                    "computed": false
+                  },
+                  "operator": "*",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 236,
+                    "end": 246,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 236,
+                      "end": 240
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 241,
+                      "end": 246,
+                      "name": "width"
+                    },
+                    "computed": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "VariableDeclarator",
+    "start": 265,
+    "end": 295,
+    "id": { "type": "Identifier", "start": 265, "end": 271, "name": "square" },
+    "init": {
+      "type": "NewExpression",
+      "start": 274,
+      "end": 295,
+      "callee": {
+        "type": "Identifier",
+        "start": 278,
+        "end": 287,
+        "name": "Rectangle"
+      },
+      "arguments": [
+        {
+          "type": "Literal",
+          "start": 288,
+          "end": 290,
+          "value": 10,
+          "raw": "10"
+        },
+        {
+          "type": "Literal",
+          "start": 292,
+          "end": 294,
+          "value": 10,
+          "raw": "10"
+        }
+      ]
+    }
+  },
+  {
+    "type": "CallExpression",
+    "start": 297,
+    "end": 321,
+    "callee": {
+      "type": "MemberExpression",
+      "start": 297,
+      "end": 308,
+      "object": {
+        "type": "Identifier",
+        "start": 297,
+        "end": 304,
+        "name": "console"
+      },
+      "property": {
+        "type": "Identifier",
+        "start": 305,
+        "end": 308,
+        "name": "log"
+      },
+      "computed": false
+    },
+    "arguments": [
+      {
+        "type": "MemberExpression",
+        "start": 309,
+        "end": 320,
+        "object": {
+          "type": "Identifier",
+          "start": 309,
+          "end": 315,
+          "name": "square"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 316,
+          "end": 320,
+          "name": "area"
+        },
+        "computed": false
+      }
+    ]
+  },
+  {
+    "type": "MethodDefinition",
+    "start": 22,
+    "end": 110,
+    "kind": "constructor",
+    "static": false,
+    "computed": false,
+    "key": {
+      "type": "Identifier",
+      "start": 22,
+      "end": 33,
+      "name": "constructor"
+    },
+    "value": {
+      "type": "FunctionExpression",
+      "start": 33,
+      "end": 110,
+      "id": null,
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        { "type": "Identifier", "start": 34, "end": 40, "name": "height" },
+        { "type": "Identifier", "start": 42, "end": 47, "name": "width" }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 49,
+        "end": 110,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 57,
+            "end": 78,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 57,
+              "end": 77,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 57,
+                "end": 68,
+                "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+                "property": {
+                  "type": "Identifier",
+                  "start": 62,
+                  "end": 68,
+                  "name": "height"
+                },
+                "computed": false
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 71,
+                "end": 77,
+                "name": "height"
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 85,
+            "end": 104,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 85,
+              "end": 103,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 85,
+                "end": 95,
+                "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+                "property": {
+                  "type": "Identifier",
+                  "start": 90,
+                  "end": 95,
+                  "name": "width"
+                },
+                "computed": false
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 98,
+                "end": 103,
+                "name": "width"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "MethodDefinition",
+    "start": 129,
+    "end": 177,
+    "kind": "get",
+    "static": false,
+    "computed": false,
+    "key": { "type": "Identifier", "start": 133, "end": 137, "name": "area" },
+    "value": {
+      "type": "FunctionExpression",
+      "start": 137,
+      "end": 177,
+      "id": null,
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 140,
+        "end": 177,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 148,
+            "end": 171,
+            "argument": {
+              "type": "CallExpression",
+              "start": 155,
+              "end": 170,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 155,
+                "end": 168,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 155,
+                  "end": 159
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 160,
+                  "end": 168,
+                  "name": "calcArea"
+                },
+                "computed": false
+              },
+              "arguments": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "MethodDefinition",
+    "start": 196,
+    "end": 253,
+    "kind": "method",
+    "static": false,
+    "computed": false,
+    "key": {
+      "type": "Identifier",
+      "start": 196,
+      "end": 204,
+      "name": "calcArea"
+    },
+    "value": {
+      "type": "FunctionExpression",
+      "start": 204,
+      "end": 253,
+      "id": null,
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 207,
+        "end": 253,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 215,
+            "end": 247,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 222,
+              "end": 246,
+              "left": {
+                "type": "MemberExpression",
+                "start": 222,
+                "end": 233,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 222,
+                  "end": 226
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 227,
+                  "end": 233,
+                  "name": "height"
+                },
+                "computed": false
+              },
+              "operator": "*",
+              "right": {
+                "type": "MemberExpression",
+                "start": 236,
+                "end": 246,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 236,
+                  "end": 240
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 241,
+                  "end": 246,
+                  "name": "width"
+                },
+                "computed": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  { "type": "Identifier", "start": 265, "end": 271, "name": "square" },
+  {
+    "type": "NewExpression",
+    "start": 274,
+    "end": 295,
+    "callee": {
+      "type": "Identifier",
+      "start": 278,
+      "end": 287,
+      "name": "Rectangle"
+    },
+    "arguments": [
+      { "type": "Literal", "start": 288, "end": 290, "value": 10, "raw": "10" },
+      { "type": "Literal", "start": 292, "end": 294, "value": 10, "raw": "10" }
+    ]
+  },
+  {
+    "type": "MemberExpression",
+    "start": 297,
+    "end": 308,
+    "object": {
+      "type": "Identifier",
+      "start": 297,
+      "end": 304,
+      "name": "console"
+    },
+    "property": {
+      "type": "Identifier",
+      "start": 305,
+      "end": 308,
+      "name": "log"
+    },
+    "computed": false
+  },
+  {
+    "type": "MemberExpression",
+    "start": 309,
+    "end": 320,
+    "object": {
+      "type": "Identifier",
+      "start": 309,
+      "end": 315,
+      "name": "square"
+    },
+    "property": {
+      "type": "Identifier",
+      "start": 316,
+      "end": 320,
+      "name": "area"
+    },
+    "computed": false
+  },
+  { "type": "Identifier", "start": 22, "end": 33, "name": "constructor" },
+  {
+    "type": "FunctionExpression",
+    "start": 33,
+    "end": 110,
+    "id": null,
+    "expression": false,
+    "generator": false,
+    "async": false,
+    "params": [
+      { "type": "Identifier", "start": 34, "end": 40, "name": "height" },
+      { "type": "Identifier", "start": 42, "end": 47, "name": "width" }
+    ],
+    "body": {
+      "type": "BlockStatement",
+      "start": 49,
+      "end": 110,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 57,
+          "end": 78,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 57,
+            "end": 77,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 57,
+              "end": 68,
+              "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+              "property": {
+                "type": "Identifier",
+                "start": 62,
+                "end": 68,
+                "name": "height"
+              },
+              "computed": false
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 71,
+              "end": 77,
+              "name": "height"
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 85,
+          "end": 104,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 85,
+            "end": 103,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 85,
+              "end": 95,
+              "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+              "property": {
+                "type": "Identifier",
+                "start": 90,
+                "end": 95,
+                "name": "width"
+              },
+              "computed": false
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 98,
+              "end": 103,
+              "name": "width"
+            }
+          }
+        }
+      ]
+    }
+  },
+  { "type": "Identifier", "start": 133, "end": 137, "name": "area" },
+  {
+    "type": "FunctionExpression",
+    "start": 137,
+    "end": 177,
+    "id": null,
+    "expression": false,
+    "generator": false,
+    "async": false,
+    "params": [],
+    "body": {
+      "type": "BlockStatement",
+      "start": 140,
+      "end": 177,
+      "body": [
+        {
+          "type": "ReturnStatement",
+          "start": 148,
+          "end": 171,
+          "argument": {
+            "type": "CallExpression",
+            "start": 155,
+            "end": 170,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 155,
+              "end": 168,
+              "object": { "type": "ThisExpression", "start": 155, "end": 159 },
+              "property": {
+                "type": "Identifier",
+                "start": 160,
+                "end": 168,
+                "name": "calcArea"
+              },
+              "computed": false
+            },
+            "arguments": []
+          }
+        }
+      ]
+    }
+  },
+  { "type": "Identifier", "start": 196, "end": 204, "name": "calcArea" },
+  {
+    "type": "FunctionExpression",
+    "start": 204,
+    "end": 253,
+    "id": null,
+    "expression": false,
+    "generator": false,
+    "async": false,
+    "params": [],
+    "body": {
+      "type": "BlockStatement",
+      "start": 207,
+      "end": 253,
+      "body": [
+        {
+          "type": "ReturnStatement",
+          "start": 215,
+          "end": 247,
+          "argument": {
+            "type": "BinaryExpression",
+            "start": 222,
+            "end": 246,
+            "left": {
+              "type": "MemberExpression",
+              "start": 222,
+              "end": 233,
+              "object": { "type": "ThisExpression", "start": 222, "end": 226 },
+              "property": {
+                "type": "Identifier",
+                "start": 227,
+                "end": 233,
+                "name": "height"
+              },
+              "computed": false
+            },
+            "operator": "*",
+            "right": {
+              "type": "MemberExpression",
+              "start": 236,
+              "end": 246,
+              "object": { "type": "ThisExpression", "start": 236, "end": 240 },
+              "property": {
+                "type": "Identifier",
+                "start": 241,
+                "end": 246,
+                "name": "width"
+              },
+              "computed": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  { "type": "Identifier", "start": 278, "end": 287, "name": "Rectangle" },
+  { "type": "Literal", "start": 288, "end": 290, "value": 10, "raw": "10" },
+  { "type": "Literal", "start": 292, "end": 294, "value": 10, "raw": "10" },
+  { "type": "Identifier", "start": 297, "end": 304, "name": "console" },
+  { "type": "Identifier", "start": 305, "end": 308, "name": "log" },
+  { "type": "Identifier", "start": 309, "end": 315, "name": "square" },
+  { "type": "Identifier", "start": 316, "end": 320, "name": "area" },
+  { "type": "Identifier", "start": 34, "end": 40, "name": "height" },
+  { "type": "Identifier", "start": 42, "end": 47, "name": "width" },
+  {
+    "type": "BlockStatement",
+    "start": 49,
+    "end": 110,
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 57,
+        "end": 78,
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 57,
+          "end": 77,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 57,
+            "end": 68,
+            "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+            "property": {
+              "type": "Identifier",
+              "start": 62,
+              "end": 68,
+              "name": "height"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 71,
+            "end": 77,
+            "name": "height"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 85,
+        "end": 104,
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 85,
+          "end": 103,
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 85,
+            "end": 95,
+            "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+            "property": {
+              "type": "Identifier",
+              "start": 90,
+              "end": 95,
+              "name": "width"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 98,
+            "end": 103,
+            "name": "width"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "BlockStatement",
+    "start": 140,
+    "end": 177,
+    "body": [
+      {
+        "type": "ReturnStatement",
+        "start": 148,
+        "end": 171,
+        "argument": {
+          "type": "CallExpression",
+          "start": 155,
+          "end": 170,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 155,
+            "end": 168,
+            "object": { "type": "ThisExpression", "start": 155, "end": 159 },
+            "property": {
+              "type": "Identifier",
+              "start": 160,
+              "end": 168,
+              "name": "calcArea"
+            },
+            "computed": false
+          },
+          "arguments": []
+        }
+      }
+    ]
+  },
+  {
+    "type": "BlockStatement",
+    "start": 207,
+    "end": 253,
+    "body": [
+      {
+        "type": "ReturnStatement",
+        "start": 215,
+        "end": 247,
+        "argument": {
+          "type": "BinaryExpression",
+          "start": 222,
+          "end": 246,
+          "left": {
+            "type": "MemberExpression",
+            "start": 222,
+            "end": 233,
+            "object": { "type": "ThisExpression", "start": 222, "end": 226 },
+            "property": {
+              "type": "Identifier",
+              "start": 227,
+              "end": 233,
+              "name": "height"
+            },
+            "computed": false
+          },
+          "operator": "*",
+          "right": {
+            "type": "MemberExpression",
+            "start": 236,
+            "end": 246,
+            "object": { "type": "ThisExpression", "start": 236, "end": 240 },
+            "property": {
+              "type": "Identifier",
+              "start": 241,
+              "end": 246,
+              "name": "width"
+            },
+            "computed": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "ExpressionStatement",
+    "start": 57,
+    "end": 78,
+    "expression": {
+      "type": "AssignmentExpression",
+      "start": 57,
+      "end": 77,
+      "operator": "=",
+      "left": {
+        "type": "MemberExpression",
+        "start": 57,
+        "end": 68,
+        "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+        "property": {
+          "type": "Identifier",
+          "start": 62,
+          "end": 68,
+          "name": "height"
+        },
+        "computed": false
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 71,
+        "end": 77,
+        "name": "height"
+      }
+    }
+  },
+  {
+    "type": "ExpressionStatement",
+    "start": 85,
+    "end": 104,
+    "expression": {
+      "type": "AssignmentExpression",
+      "start": 85,
+      "end": 103,
+      "operator": "=",
+      "left": {
+        "type": "MemberExpression",
+        "start": 85,
+        "end": 95,
+        "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+        "property": {
+          "type": "Identifier",
+          "start": 90,
+          "end": 95,
+          "name": "width"
+        },
+        "computed": false
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 98,
+        "end": 103,
+        "name": "width"
+      }
+    }
+  },
+  {
+    "type": "ReturnStatement",
+    "start": 148,
+    "end": 171,
+    "argument": {
+      "type": "CallExpression",
+      "start": 155,
+      "end": 170,
+      "callee": {
+        "type": "MemberExpression",
+        "start": 155,
+        "end": 168,
+        "object": { "type": "ThisExpression", "start": 155, "end": 159 },
+        "property": {
+          "type": "Identifier",
+          "start": 160,
+          "end": 168,
+          "name": "calcArea"
+        },
+        "computed": false
+      },
+      "arguments": []
+    }
+  },
+  {
+    "type": "ReturnStatement",
+    "start": 215,
+    "end": 247,
+    "argument": {
+      "type": "BinaryExpression",
+      "start": 222,
+      "end": 246,
+      "left": {
+        "type": "MemberExpression",
+        "start": 222,
+        "end": 233,
+        "object": { "type": "ThisExpression", "start": 222, "end": 226 },
+        "property": {
+          "type": "Identifier",
+          "start": 227,
+          "end": 233,
+          "name": "height"
+        },
+        "computed": false
+      },
+      "operator": "*",
+      "right": {
+        "type": "MemberExpression",
+        "start": 236,
+        "end": 246,
+        "object": { "type": "ThisExpression", "start": 236, "end": 240 },
+        "property": {
+          "type": "Identifier",
+          "start": 241,
+          "end": 246,
+          "name": "width"
+        },
+        "computed": false
+      }
+    }
+  },
+  {
+    "type": "AssignmentExpression",
+    "start": 57,
+    "end": 77,
+    "operator": "=",
+    "left": {
+      "type": "MemberExpression",
+      "start": 57,
+      "end": 68,
+      "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+      "property": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 68,
+        "name": "height"
+      },
+      "computed": false
+    },
+    "right": { "type": "Identifier", "start": 71, "end": 77, "name": "height" }
+  },
+  {
+    "type": "AssignmentExpression",
+    "start": 85,
+    "end": 103,
+    "operator": "=",
+    "left": {
+      "type": "MemberExpression",
+      "start": 85,
+      "end": 95,
+      "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+      "property": {
+        "type": "Identifier",
+        "start": 90,
+        "end": 95,
+        "name": "width"
+      },
+      "computed": false
+    },
+    "right": { "type": "Identifier", "start": 98, "end": 103, "name": "width" }
+  },
+  {
+    "type": "CallExpression",
+    "start": 155,
+    "end": 170,
+    "callee": {
+      "type": "MemberExpression",
+      "start": 155,
+      "end": 168,
+      "object": { "type": "ThisExpression", "start": 155, "end": 159 },
+      "property": {
+        "type": "Identifier",
+        "start": 160,
+        "end": 168,
+        "name": "calcArea"
+      },
+      "computed": false
+    },
+    "arguments": []
+  },
+  {
+    "type": "BinaryExpression",
+    "start": 222,
+    "end": 246,
+    "left": {
+      "type": "MemberExpression",
+      "start": 222,
+      "end": 233,
+      "object": { "type": "ThisExpression", "start": 222, "end": 226 },
+      "property": {
+        "type": "Identifier",
+        "start": 227,
+        "end": 233,
+        "name": "height"
+      },
+      "computed": false
+    },
+    "operator": "*",
+    "right": {
+      "type": "MemberExpression",
+      "start": 236,
+      "end": 246,
+      "object": { "type": "ThisExpression", "start": 236, "end": 240 },
+      "property": {
+        "type": "Identifier",
+        "start": 241,
+        "end": 246,
+        "name": "width"
+      },
+      "computed": false
+    }
+  },
+  {
+    "type": "MemberExpression",
+    "start": 57,
+    "end": 68,
+    "object": { "type": "ThisExpression", "start": 57, "end": 61 },
+    "property": {
+      "type": "Identifier",
+      "start": 62,
+      "end": 68,
+      "name": "height"
+    },
+    "computed": false
+  },
+  { "type": "Identifier", "start": 71, "end": 77, "name": "height" },
+  {
+    "type": "MemberExpression",
+    "start": 85,
+    "end": 95,
+    "object": { "type": "ThisExpression", "start": 85, "end": 89 },
+    "property": {
+      "type": "Identifier",
+      "start": 90,
+      "end": 95,
+      "name": "width"
+    },
+    "computed": false
+  },
+  { "type": "Identifier", "start": 98, "end": 103, "name": "width" },
+  {
+    "type": "MemberExpression",
+    "start": 155,
+    "end": 168,
+    "object": { "type": "ThisExpression", "start": 155, "end": 159 },
+    "property": {
+      "type": "Identifier",
+      "start": 160,
+      "end": 168,
+      "name": "calcArea"
+    },
+    "computed": false
+  },
+  {
+    "type": "MemberExpression",
+    "start": 222,
+    "end": 233,
+    "object": { "type": "ThisExpression", "start": 222, "end": 226 },
+    "property": {
+      "type": "Identifier",
+      "start": 227,
+      "end": 233,
+      "name": "height"
+    },
+    "computed": false
+  },
+  {
+    "type": "MemberExpression",
+    "start": 236,
+    "end": 246,
+    "object": { "type": "ThisExpression", "start": 236, "end": 240 },
+    "property": {
+      "type": "Identifier",
+      "start": 241,
+      "end": 246,
+      "name": "width"
+    },
+    "computed": false
+  },
+  { "type": "ThisExpression", "start": 57, "end": 61 },
+  { "type": "Identifier", "start": 62, "end": 68, "name": "height" },
+  { "type": "ThisExpression", "start": 85, "end": 89 },
+  { "type": "Identifier", "start": 90, "end": 95, "name": "width" },
+  { "type": "ThisExpression", "start": 155, "end": 159 },
+  { "type": "Identifier", "start": 160, "end": 168, "name": "calcArea" },
+  { "type": "ThisExpression", "start": 222, "end": 226 },
+  { "type": "Identifier", "start": 227, "end": 233, "name": "height" },
+  { "type": "ThisExpression", "start": 236, "end": 240 },
+  { "type": "Identifier", "start": 241, "end": 246, "name": "width" }
+]
