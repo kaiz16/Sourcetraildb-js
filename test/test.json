@@ -1,0 +1,226 @@
+[
+  {
+    "computed": false,
+    "end": 110,
+    "key": {
+      "end": 33,
+      "name": "constructor",
+      "start": 22,
+      "type": "Identifier"
+    },
+    "kind": "constructor",
+    "start": 22,
+    "static": false,
+    "type": "MethodDefinition",
+    "value": {
+      "async": false,
+      "body": {
+        "body": [
+          {
+            "end": 78,
+            "expression": {
+              "end": 77,
+              "left": {
+                "computed": false,
+                "end": 68,
+                "object": { "end": 61, "start": 57, "type": "ThisExpression" },
+                "property": {
+                  "end": 68,
+                  "name": "height",
+                  "start": 62,
+                  "type": "Identifier"
+                },
+                "start": 57,
+                "type": "MemberExpression"
+              },
+              "operator": "=",
+              "right": {
+                "end": 77,
+                "name": "height",
+                "start": 71,
+                "type": "Identifier"
+              },
+              "start": 57,
+              "type": "AssignmentExpression"
+            },
+            "start": 57,
+            "type": "ExpressionStatement"
+          },
+          {
+            "end": 104,
+            "expression": {
+              "end": 103,
+              "left": {
+                "computed": false,
+                "end": 95,
+                "object": { "end": 89, "start": 85, "type": "ThisExpression" },
+                "property": {
+                  "end": 95,
+                  "name": "width",
+                  "start": 90,
+                  "type": "Identifier"
+                },
+                "start": 85,
+                "type": "MemberExpression"
+              },
+              "operator": "=",
+              "right": {
+                "end": 103,
+                "name": "width",
+                "start": 98,
+                "type": "Identifier"
+              },
+              "start": 85,
+              "type": "AssignmentExpression"
+            },
+            "start": 85,
+            "type": "ExpressionStatement"
+          }
+        ],
+        "end": 110,
+        "start": 49,
+        "type": "BlockStatement"
+      },
+      "end": 110,
+      "expression": false,
+      "generator": false,
+      "id": null,
+      "params": [
+        { "end": 40, "name": "height", "start": 34, "type": "Identifier" },
+        { "end": 47, "name": "width", "start": 42, "type": "Identifier" }
+      ],
+      "start": 33,
+      "type": "FunctionExpression"
+    }
+  },
+  {
+    "computed": false,
+    "end": 177,
+    "key": { "end": 137, "name": "area", "start": 133, "type": "Identifier" },
+    "kind": "get",
+    "start": 129,
+    "static": false,
+    "type": "MethodDefinition",
+    "value": {
+      "async": false,
+      "body": {
+        "body": [
+          {
+            "argument": {
+              "arguments": [],
+              "callee": {
+                "computed": false,
+                "end": 168,
+                "object": {
+                  "end": 159,
+                  "start": 155,
+                  "type": "ThisExpression"
+                },
+                "property": {
+                  "end": 168,
+                  "name": "calcArea",
+                  "start": 160,
+                  "type": "Identifier"
+                },
+                "start": 155,
+                "type": "MemberExpression"
+              },
+              "end": 170,
+              "start": 155,
+              "type": "CallExpression"
+            },
+            "end": 171,
+            "start": 148,
+            "type": "ReturnStatement"
+          }
+        ],
+        "end": 177,
+        "start": 140,
+        "type": "BlockStatement"
+      },
+      "end": 177,
+      "expression": false,
+      "generator": false,
+      "id": null,
+      "params": [],
+      "start": 137,
+      "type": "FunctionExpression"
+    }
+  },
+  {
+    "computed": false,
+    "end": 253,
+    "key": {
+      "end": 204,
+      "name": "calcArea",
+      "start": 196,
+      "type": "Identifier"
+    },
+    "kind": "method",
+    "start": 196,
+    "static": false,
+    "type": "MethodDefinition",
+    "value": {
+      "async": false,
+      "body": {
+        "body": [
+          {
+            "argument": {
+              "end": 246,
+              "left": {
+                "computed": false,
+                "end": 233,
+                "object": {
+                  "end": 226,
+                  "start": 222,
+                  "type": "ThisExpression"
+                },
+                "property": {
+                  "end": 233,
+                  "name": "height",
+                  "start": 227,
+                  "type": "Identifier"
+                },
+                "start": 222,
+                "type": "MemberExpression"
+              },
+              "operator": "*",
+              "right": {
+                "computed": false,
+                "end": 246,
+                "object": {
+                  "end": 240,
+                  "start": 236,
+                  "type": "ThisExpression"
+                },
+                "property": {
+                  "end": 246,
+                  "name": "width",
+                  "start": 241,
+                  "type": "Identifier"
+                },
+                "start": 236,
+                "type": "MemberExpression"
+              },
+              "start": 222,
+              "type": "BinaryExpression"
+            },
+            "end": 247,
+            "start": 215,
+            "type": "ReturnStatement"
+          }
+        ],
+        "end": 253,
+        "start": 207,
+        "type": "BlockStatement"
+      },
+      "end": 253,
+      "expression": false,
+      "generator": false,
+      "id": null,
+      "params": [],
+      "start": 204,
+      "type": "FunctionExpression"
+    }
+  }
+]
