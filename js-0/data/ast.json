@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "loc": {
+    "source": null,
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 5,
+      "column": 6
+    }
+  },
+  "range": [
+    0,
+    54
+  ],
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      "range": [
+        0,
+        46
+      ],
+      "id": {
+        "type": "Identifier",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 9
+          },
+          "end": {
+            "line": 1,
+            "column": 12
+          }
+        },
+        "range": [
+          9,
+          12
+        ],
+        "name": "foo",
+        "typeAnnotation": null,
+        "optional": false
+      },
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 1
+          }
+        },
+        "range": [
+          14,
+          46
+        ],
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "loc": {
+              "source": null,
+              "start": {
+                "line": 2,
+                "column": 1
+              },
+              "end": {
+                "line": 2,
+                "column": 28
+              }
+            },
+            "range": [
+              17,
+              44
+            ],
+            "expression": {
+              "type": "CallExpression",
+              "loc": {
+                "source": null,
+                "start": {
+                  "line": 2,
+                  "column": 1
+                },
+                "end": {
+                  "line": 2,
+                  "column": 27
+                }
+              },
+              "range": [
+                17,
+                43
+              ],
+              "callee": {
+                "type": "MemberExpression",
+                "loc": {
+                  "source": null,
+                  "start": {
+                    "line": 2,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 12
+                  }
+                },
+                "range": [
+                  17,
+                  28
+                ],
+                "object": {
+                  "type": "Identifier",
+                  "loc": {
+                    "source": null,
+                    "start": {
+                      "line": 2,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 8
+                    }
+                  },
+                  "range": [
+                    17,
+                    24
+                  ],
+                  "name": "console",
+                  "typeAnnotation": null,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "loc": {
+                    "source": null,
+                    "start": {
+                      "line": 2,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 12
+                    }
+                  },
+                  "range": [
+                    25,
+                    28
+                  ],
+                  "name": "log",
+                  "typeAnnotation": null,
+                  "optional": false
+                },
+                "computed": false
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "loc": {
+                    "source": null,
+                    "start": {
+                      "line": 2,
+                      "column": 13
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 26
+                    }
+                  },
+                  "range": [
+                    29,
+                    42
+                  ],
+                  "value": "Hello world",
+                  "raw": "\"Hello world\""
+                }
+              ]
+            },
+            "directive": null
+          }
+        ]
+      },
+      "async": false,
+      "generator": false,
+      "predicate": null,
+      "expression": false,
+      "returnType": null,
+      "typeParameters": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      },
+      "range": [
+        48,
+        54
+      ],
+      "expression": {
+        "type": "CallExpression",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "range": [
+          48,
+          53
+        ],
+        "callee": {
+          "type": "Identifier",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 5,
+              "column": 3
+            }
+          },
+          "range": [
+            48,
+            51
+          ],
+          "name": "foo",
+          "typeAnnotation": null,
+          "optional": false
+        },
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
+    }
+  ],
+  "comments": [],
+  "errors": []
+}
